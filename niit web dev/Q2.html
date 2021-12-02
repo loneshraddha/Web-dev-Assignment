@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<style> 
+h1{
+text-align: center;
+} 
+body{ 
+    background-color: #59d3e5; 
+    margin-left:30px ;
+} 
+hr{ 
+    border-color: #cccc;
+} 
+#abc{ 
+    border: none;
+} 
+.button{
+    
+} 
+button:hover{
+    color: white; 
+    background-color: green;
+} 
+.button1{
+    background-color: green; 
+    width: 50px;
+}
+
+</style>
+<body>  
+    <h1>Student Registration Form</h1> 
+    <hr> <br>
+    <form action="demo.php"> 
+        <label for="name">Enter Full Name :</label> 
+        <input type="text" placeholder="Firstname"> 
+        <input type="text" placeholder="Middlename">
+        <input type="text" placeholder="Lastname"><br> <br>
+        <label for="course">Course :</label> 
+        <select id="course" name="course">
+        <option value="HTML">HTML</option>
+        <option value="Java">Java</option> 
+        <option value="Python">Python</option> 
+        </select> <br><br>
+        Gender : <input type="radio" name="gender" value="Male">Male 
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other <br> <br>
+        <label for="phone">Phone :</label> 
+        <input type="tel" id="phone" name="phone" > <br> <br>
+        <label for="textarea">Current Address :</label><br>
+        <textarea id="abc"   rows="4" cols="100"></textarea> <br> <br>
+        <label for="email">Email : </label>
+        <input type="email"> <br><br>
+        <label for="password">Password:</label> 
+        <input type="password"> 
+        <label for="resetpassword">Re-type Password</label> 
+        <input type="password"> <p>
+        <button class="button" type="button">Register</button></p>
+
+    </form>
+</body>
+</html>
